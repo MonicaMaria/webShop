@@ -1,0 +1,39 @@
+html, body, header, main, footer {
+    width: 100%;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #d4eae4;
+}
+
+header, footer {
+    background-color: rgba(18, 178, 166, 0.75);
+}
+
+.nav-link {
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.card {
+    padding-top: auto;
+    background-color: rgba(0, 127, 163, 0.5);
+}
+
+.card-header {
+    background-color: rgba(0, 48, 87, 0.5);
+    font-size: 1.2rem;
+}
+
+h6 .card-title {
+    font-size: 1rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
